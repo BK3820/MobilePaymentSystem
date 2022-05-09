@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HomeMasterPage.master.cs" Inherits="HomeMasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>
+    
+    <style type="text/css">
+        .style1 {
+            width: 85%;
+            border-color:Black;
+            background-color: #7E7E7E;
+            height:auto;
+        }
+        #form1
+        {
+            height:auto;
+            width: 921px;
+        }
+    </style>
+    
+</head>
+<body bgcolor="#CBD2D9"  >
+    <form id="form1" runat="server">
+    
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div>
+        
+   <center>
+    
+    <div id="main"  runat="server" class="style1">
+    <div id="main2" runat="server" 
+            style="width:97%; height:99%; background-color:#FFFFFF">
+        <img src="Images/side4.gif" alt="k"  style="width: 162px; height:130px"  /><img  src="Images/Heading3.png" 
+            alt="HI" style="width: 590px; height:130px" />
+        <hr />
+        <table>
+        <tr>
+    <td align="left" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <td style="text-align: center">
+      <asp:Menu ID="menu1" runat="server" DynamicEnableDefaultPopOutImage="False" 
+              Orientation="Horizontal" Width="49%" Height="18px" 
+              StaticEnableDefaultPopOutImage="False" style="font-weight: 700" >
+          <StaticMenuStyle Width="500px" />
+          <StaticMenuItemStyle ForeColor="Red" />
+          <Items>
+              <asp:MenuItem Text="||" Value="||"></asp:MenuItem>
+              <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/frmHome.aspx"></asp:MenuItem>
+              <asp:MenuItem Text="|" Value="|"></asp:MenuItem>
+              <asp:MenuItem Text="Login" Value="Login" NavigateUrl="~/frmLogin.aspx"></asp:MenuItem>
+              <asp:MenuItem Text="|" Value="|"></asp:MenuItem>
+              <asp:MenuItem Text="Offers" Value="Offers" NavigateUrl="~/frmOffers.aspx"></asp:MenuItem>
+              <asp:MenuItem Text="|" Value="|"></asp:MenuItem>
+              <asp:MenuItem Text="Contact Us" Value="Contact Us" 
+                  NavigateUrl="~/ContactUs.aspx"></asp:MenuItem>
+              <asp:MenuItem Text="||" Value="||"></asp:MenuItem>
+          </Items>
+          </asp:Menu>
+      </td></table></td>
+  </tr>
+  </table>
+   <div id="div1" runat ="server" 
+            style="border-color:Gray; border-style:double; height:auto">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1"  runat="server" >
+    
+    </asp:ContentPlaceHolder></div>
+    <center>
+     <div><b style="color:Gray">&copy All Copy Rights Reserved </b></div>
+     </center>
+    </div>
+    </div></center>
+    </div>
+    <%--</div></center>
+     </div>--%>
+    <cc1:RoundedCornersExtender ID="RoundedCornersExtender1" TargetControlID="main" Radius="10" runat="server">
+    </cc1:RoundedCornersExtender>
+    <cc1:RoundedCornersExtender ID="RoundedCornersExtender2" TargetControlID="main2" Radius="18" runat="server">
+    </cc1:RoundedCornersExtender>
+     </form>
+</body>
+</html>

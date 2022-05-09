@@ -1,0 +1,204 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 8.5pt; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #666; PADDING-TOP: 0px; FONT-FAMILY: "Helvetica Neue", Arial, Helvetica; BACKGROUND-COLOR: #cbd2d9
+}
+.popup {
+	BACKGROUND-COLOR: white
+}
+.underline {
+	BORDER-RIGHT: #06c 0px solid; BORDER-TOP: #06c 0px solid; BORDER-LEFT: #06c 0px solid; BORDER-BOTTOM: #06c 1px solid
+}
+.bordertop {
+	BORDER-RIGHT: #06c 0px solid; BORDER-TOP: #06c 1px solid; BORDER-LEFT: #06c 0px solid; BORDER-BOTTOM: #06c 0px solid
+}
+TABLE {
+	BACKGROUND-COLOR: white
+}
+EM {
+	FONT-WEIGHT: bold; COLOR: #ffa000; FONT-STYLE: normal
+}
+#specialNumbers TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BACKGROUND-COLOR: #e0f0ff
+}
+.inner-table {
+	MARGIN-LEFT: auto; MARGIN-RIGHT: auto; BORDER-COLLAPSE: collapse
+}
+#membersmenu TABLE {
+	BACKGROUND-COLOR: #8ed8f8
+}
+H1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 20px; COLOR: #ff8000; FONT-FAMILY: "Helvetica Neue", Arial, Helvetica
+}
+H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 18px; COLOR: #ff8000; PADDING-TOP: 10px; FONT-FAMILY: "Helvetica Neue", Arial, Helvetica
+}
+H3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 16px; COLOR: #666; PADDING-TOP: 10px; FONT-FAMILY: "Helvetica Neue", Arial, Helvetica
+}
+H4 {
+	FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: #06c; PADDING-TOP: 10px; FONT-FAMILY: "Helvetica Neue", Arial, Helvetica; LETTER-SPACING: 0.2em
+}
+.label {
+	PADDING-RIGHT: 10px; COLOR: #000; TEXT-ALIGN: right
+}
+TH {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 5px; BORDER-TOP: 0px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; BORDER-LEFT: 0px; COLOR: #ff8000; PADDING-TOP: 5px; BORDER-BOTTOM: #ff8000 1px solid; FONT-FAMILY: "Helvetica Neue", Arial, Helvetica; TEXT-ALIGN: center
+}
+TD {
+	FONT-SIZE: 12px
+}
+.evenRow {
+	BACKGROUND-COLOR: #e0f0ff
+}
+P {
+	FONT-SIZE: 12px
+}
+A {
+	COLOR: #06c; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #06c; TEXT-DECORATION: underline
+}
+.fine {
+	FONT-SIZE: 10px
+}
+.themarketingpeoplemadeusdoit {
+	FONT-SIZE: 14px
+}
+.footer {
+	PADDING-RIGHT: 10px; FONT-SIZE: 8px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; TEXT-ALIGN: right
+}
+.fill {
+	HEIGHT: 100%
+}
+#internationalRates TABLE {
+	MARGIN-LEFT: auto; MARGIN-RIGHT: auto; BORDER-COLLAPSE: collapse
+}
+#internationalRates TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; TEXT-ALIGN: center
+}
+.section {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; PADDING-TOP: 20px; BORDER-BOTTOM: #c7cfd5 1px solid
+}
+.sectionHeading {
+	FONT-WEIGHT: bold; COLOR: #06c
+}
+.sectionText {
+	FONT-SIZE: 11px; PADDING-BOTTOM: 10px; COLOR: #06c
+}
+.manualnumbering {
+	LIST-STYLE-TYPE: none
+}
+.alphabetic {
+	LIST-STYLE-TYPE: lower-alpha
+}
+.levelthree {
+	LIST-STYLE-TYPE: lower-roman
+}
+.rightpad {
+	PADDING-RIGHT: 20px
+}
+.error {
+	COLOR: red
+}
+#termsandconditions LI {
+	PADDING-TOP: 10px
+}
+#faq TABLE {
+	
+}
+#faq TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 10px; border-spacing: 1px
+}
+#rechargeform {
+	
+}
+#rechargeform TABLE {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 30px; PADDING-BOTTOM: 20px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto; PADDING-TOP: 20px; BACKGROUND-COLOR: #fff
+}
+#bpayreceipt {
+	MARGIN-LEFT: auto; MARGIN-RIGHT: auto; BACKGROUND-COLOR: white
+}
+#deals LI {
+	MARGIN-TOP: 10px
+}
+#landing LI {
+	MARGIN-TOP: 10px
+}
+#membernav TABLE {
+	WIDTH: 144px
+}
+.flatinput {
+	FONT-SIZE: 12px; COLOR: #666; FONT-FAMILY: "Helvetica Neue", Arial, Helvetica
+}
+.flatinput:hover {
+	COLOR: #06c
+}
+#loginframe #loginform TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: auto; WIDTH: 110px; MARGIN-RIGHT: auto; PADDING-TOP: 0px; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: transparent
+}
+#loginform TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; TEXT-ALIGN: center
+}
+#loginform .label {
+	PADDING-LEFT: 10px; FONT-SIZE: 11px; PADDING-BOTTOM: 6px; COLOR: #666; PADDING-TOP: 10px; FONT-FAMILY: "Helvetica Neue", Arial, Helvetica; TEXT-ALIGN: left
+}
+#loginframe TABLE {
+	WIDTH: 143px; BORDER-COLLAPSE: collapse
+}
+#loginframe TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#locationsearch TABLE {
+	MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#locationsearch TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+#searchresults TABLE {
+	MARGIN-LEFT: auto; MARGIN-RIGHT: auto; BORDER-COLLAPSE: collapse
+}
+#searchresults TD {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.bottomline {
+	BORDER-RIGHT: 0px; BORDER-TOP: #06c 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.obvious {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px
+}
+.emailtable {
+	BORDER-COLLAPSE: collapse
+}
+.bdl {
+	BORDER-LEFT: #ff8000 1px solid
+}
+.bdr {
+	BORDER-RIGHT: #ff8000 1px solid
+}
+.bdt {
+	BORDER-TOP: #ff8000 1px solid
+}
+.bdb {
+	BORDER-BOTTOM: #ff8000 1px solid
+}
+.ft1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 16px; COLOR: #ff8000; FONT-FAMILY: "Helvetica Neue", Arial, Helvetica
+}
+.ft2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #ff8000; FONT-FAMILY: "Helvetica Neue", Arial, Helvetica
+}
+.ft3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 8.5pt; COLOR: #666; FONT-FAMILY: "Helvetica Neue", Arial, Helvetica
+}
+.cell {
+	BORDER-RIGHT: #ad5100 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #ad5100 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #ad5100 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #ad5100 1px solid; BORDER-COLLAPSE: collapse
+}
+.dheading {
+	FONT-WEIGHT: normal; FONT-SIZE: 18px; COLOR: #ff8000; FONT-FAMILY: "Helvetica Neue", Arial, Helvetica
+}
+.txf1 {
+	FONT-WEIGHT: normal; WIDTH: 170px; FONT-FAMILY: "Helvetica Neue", Arial, Helvetica
+}
+.rptlabel {
+	COLOR: #000; TEXT-ALIGN: right
+}
